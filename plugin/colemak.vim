@@ -65,11 +65,6 @@
 	nnoremap k n|xnoremap k n|onoremap k n|
 	nnoremap K N|xnoremap K N|onoremap K N|
 " }}}
-" {{{ Undo/redo
-	nnoremap z u|xnoremap z :<C-u>undo<CR>|
-	nnoremap gz U|xnoremap gz :<C-u>undo<CR>|
-	nnoremap Z <C-R>|xnoremap Z :<C-u>redo<CR>|
-" }}}
 " {{{ J 
 	" jt/jb scroll so current line to top/bottom of screen
 	nnoremap jj zz|
