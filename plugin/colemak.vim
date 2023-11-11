@@ -87,8 +87,8 @@
 
 	" Jump List, see :h jumps
 	" Mv u/d (h/d) jump list [c] times; [c]<C-h>; :jumps = view list
-	nnoremap <C-h> <C-o>
-	nnoremap <C-d> <C-i>
+	nnoremap <C-S-h> <C-o>
+	nnoremap <C-S-d> <C-i>
 " }}}
 " {{{ inneR text objects 
 	" e.g. drp equivilant to dip (delete inner paragraph)
