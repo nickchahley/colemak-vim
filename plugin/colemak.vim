@@ -34,6 +34,9 @@
 	nnoremap <C-w>e <C-w>j|xnoremap <C-w>e <C-w>j|
 	nnoremap <C-w>i <C-w>k|xnoremap <C-w>i <C-w>k|
 	nnoremap <C-w>o <C-w>l|xnoremap <C-w>o <C-w>l|
+
+	" Scroll down (replace <C-e>)
+	nnoremap <C-p> <C-e>|xnoremap <C-p> <C-e>|onoremap <C-p> <C-e>|
 " }}}
 " {{{ Words forward/backward
 	" l/L = fwd Last char of word/WORD (crf b/B)
