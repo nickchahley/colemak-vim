@@ -16,11 +16,8 @@
 	nnoremap e gj|xnoremap e gj|onoremap e gj|
 	nnoremap i gk|xnoremap i gk|onoremap i gk|
 	" Add maps for down/up count lines, ignoring wraps
-	" Unsure why I need to add vmaps for these and not the above
-	nnoremap <leader>e j
-	nnoremap <leader>i k
-	vnoremap <leader>e j
-	vnoremap <leader>i k
+	nnoremap ge j|xnoremap e j|onoremap e j|
+	nnoremap gi k|xnoremap i k|onoremap i k|
 	" Turbo Navigation
 	" Works with counts, see ":help complex-repeat"
 	nnoremap <silent> N @='5h'<CR>|xnoremap <silent> N @='5h'<CR>|onoremap <silent> N @='5h'<CR>|
