@@ -65,18 +65,6 @@
 	nnoremap k n|xnoremap k n|onoremap k n|
 	nnoremap K N|xnoremap K N|onoremap K N|
 " }}}
-" {{{ J 
-	" jt/jb scroll so current line to top/bottom of screen
-	nnoremap jj zz|
-
-	" Folds
-	" notej to z might be a place where we can recursive map
-	nnoremap j z|xnoremap j z|
-	" mv down to start of next fold, closed inclusive, [count]
-	nnoremap jn zj|xnoremap jn zj|
-	" mv up to end of prev fold, closed inclusive, [count]
-	nnoremap je zk|xnoremap je zk|
-" }}}
 " {{{ Jumping Around 
 	" Indexed Line Jumping 
 	" 123<CR> will jump to line 123, vs jump down 123 lines
